@@ -1,0 +1,14 @@
+html
+  head
+    title
+      Coton Template Engine
+
+  body
+    header.header
+      h1.title
+        Coton Template Engine
+
+    main.content
+      section
+        p
+          This is a file test for the -strong Coton Template Engine
