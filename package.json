@@ -1,0 +1,26 @@
+{
+  "name": "coton",
+  "version": "0.1.0",
+  "description": "HTML Template Engine",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.spec.js --compilers js:babel-core/register'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davegomez/coton.git"
+  },
+  "keywords": [
+    "html",
+    "javascript",
+    "templates",
+    "compiler",
+    "coton"
+  ],
+  "author": "David Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davegomez/coton/issues"
+  },
+  "homepage": "https://github.com/davegomez/coton#readme"
+}
