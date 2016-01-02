@@ -4,16 +4,16 @@
   "description": "HTML Template Engine",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha 'test/**/*.spec.js --compilers js:babel-core/register'"
+    "test": "mocha 'test/**/*.spec.js'"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davegomez/coton.git"
   },
   "keywords": [
+    "engine",
     "html",
-    "javascript",
-    "templates",
+    "template",
     "compiler",
     "coton"
   ],
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/davegomez/coton/issues"
   },
-  "homepage": "https://github.com/davegomez/coton#readme"
+  "homepage": "https://github.com/davegomez/coton#readme",
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "expect": "^1.13.4",
+    "mocha": "^2.3.4"
+  }
 }
